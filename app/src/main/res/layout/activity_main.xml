@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_our_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Team"
+        android:textSize="20sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="25dp"/>
+
+    <ImageView
+        android:id="@+id/img_one"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:src="@drawable/boy"
+        android:layout_marginTop="18dp"
+        app:layout_constraintTop_toBottomOf="@id/txt_our_team"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintRight_toLeftOf="@id/img_two"/>
+
+    <TextView
+        android:id="@+id/txt_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jame"
+        app:layout_constraintTop_toBottomOf="@id/img_one"
+        app:layout_constraintLeft_toLeftOf="@id/img_one"
+        app:layout_constraintRight_toRightOf="@id/img_one"/>
+
+    <TextView
+        android:id="@+id/txt_one_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Executive Officer"
+        app:layout_constraintTop_toBottomOf="@id/txt_one"
+        app:layout_constraintLeft_toLeftOf="@id/txt_one"
+        app:layout_constraintRight_toRightOf="@id/txt_one"/>
+
+    <ImageView
+        android:id="@+id/img_two"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:src="@drawable/girl"
+        app:layout_constraintLeft_toRightOf="@id/img_one"
+        app:layout_constraintBottom_toBottomOf="@id/img_one"
+        app:layout_constraintRight_toLeftOf="@id/img_three"/>
+
+    <TextView
+        android:id="@+id/txt_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rose"
+        app:layout_constraintTop_toBottomOf="@id/img_two"
+        app:layout_constraintLeft_toLeftOf="@id/img_two"
+        app:layout_constraintRight_toRightOf="@id/img_two"/>
+
+    <TextView
+        android:id="@+id/txt_two_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marketing"
+        app:layout_constraintTop_toBottomOf="@id/txt_two"
+        app:layout_constraintLeft_toLeftOf="@id/txt_two"
+        app:layout_constraintRight_toRightOf="@id/txt_two"/>
+
+    <ImageView
+        android:id="@+id/img_three"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:src="@drawable/boy"
+        app:layout_constraintLeft_toRightOf="@id/img_two"
+        app:layout_constraintBottom_toBottomOf="@id/img_two"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/txt_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harry"
+        app:layout_constraintTop_toBottomOf="@id/img_three"
+        app:layout_constraintLeft_toLeftOf="@id/img_three"
+        app:layout_constraintRight_toRightOf="@id/img_three"/>
+
+    <TextView
+        android:id="@+id/txt_three_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actor"
+        app:layout_constraintTop_toBottomOf="@id/txt_three"
+        app:layout_constraintLeft_toLeftOf="@id/txt_three"
+        app:layout_constraintRight_toRightOf="@id/txt_three"/>
+
+    <ImageView
+        android:id="@+id/img_A"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:src="@drawable/girl"
+        android:layout_marginTop="30dp"
+        tools:ignore="MissingConstraints,UnknownId"
+        app:layout_constraintTop_toBottomOf="@id/txt_two_two"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintRight_toLeftOf="@id/img_B"/>
+
+    <TextView
+        android:id="@+id/txt_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cherry"
+        app:layout_constraintTop_toBottomOf="@id/img_A"
+        app:layout_constraintLeft_toLeftOf="@id/img_A"
+        app:layout_constraintRight_toRightOf="@id/img_A"/>
+
+    <TextView
+        android:id="@+id/txt_A_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Developer"
+        app:layout_constraintTop_toBottomOf="@id/txt_A"
+        app:layout_constraintLeft_toLeftOf="@id/txt_A"
+        app:layout_constraintRight_toRightOf="@id/txt_A"/>
+
+
+    <ImageView
+        android:id="@+id/img_B"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:src="@drawable/boy"
+        app:layout_constraintLeft_toRightOf="@id/img_A"
+        app:layout_constraintRight_toLeftOf="@id/img_C"
+        app:layout_constraintBottom_toBottomOf="@id/img_A"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="louis"
+        app:layout_constraintTop_toBottomOf="@id/img_B"
+        app:layout_constraintLeft_toLeftOf="@id/img_B"
+        app:layout_constraintRight_toRightOf="@id/img_B"/>
+
+    <TextView
+        android:id="@+id/txt_B_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designer"
+        app:layout_constraintTop_toBottomOf="@id/txt_B"
+        app:layout_constraintLeft_toLeftOf="@id/txt_B"
+        app:layout_constraintRight_toRightOf="@id/txt_B"/>
+
+    <ImageView
+        android:id="@+id/img_C"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:src="@drawable/girl"
+        app:layout_constraintLeft_toRightOf="@id/img_B"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/img_B"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lily"
+        app:layout_constraintLeft_toLeftOf="@id/img_C"
+        app:layout_constraintRight_toRightOf="@id/img_C"
+        app:layout_constraintTop_toBottomOf="@id/img_C"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt_C_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actress"
+        app:layout_constraintLeft_toLeftOf="@id/txt_C"
+        app:layout_constraintRight_toRightOf="@id/txt_C"
+        app:layout_constraintTop_toBottomOf="@id/txt_C"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt_mission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mission"
+        android:textSize="20sp"
+        android:layout_marginVertical="15dp"
+        app:layout_constraintTop_toBottomOf="@id/txt_B_two"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/txt_paragraph"/>
+
+    <TextView
+        android:id="@+id/txt_paragraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/big_paragraph"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintTop_toBottomOf="@id/txt_mission"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
